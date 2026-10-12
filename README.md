@@ -2,6 +2,7 @@
 
 /** 
 var maxDepth = function(root) {
+
     if(!root) return 0;
     let leftMax= maxDepth(root.left)
     let rightMax= maxDepth(root.right)
@@ -10,6 +11,7 @@ var maxDepth = function(root) {
 **/
 //top-buttom
 var maxDepth = function(root) {
+
     if(!root) return 0;
     let maxDepth = 0;
     let traversal = (curr, depth) => {
