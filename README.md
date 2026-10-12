@@ -1,6 +1,6 @@
 # QA-DSA---97--maxDepth_top-down-bottomUp
 
-/** 
+
 var maxDepth = function(root) {
 
     if(!root) return 0;
@@ -8,8 +8,9 @@ var maxDepth = function(root) {
     let rightMax= maxDepth(root.right)
     return 1+ Math.max(leftMax,rightMax)
 };
-**/
+
 //top-buttom
+
 var maxDepth = function(root) {
 
     if(!root) return 0;
